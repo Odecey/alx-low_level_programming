@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * print_numbers - print numbers between 0 to 9.
+ * print_numbers - prints numbers between 0 to 9.
  * Return: no return.
  */
 
-int print_numbers(void)
+void print_numbers(void)
 {
 	int ch;
 

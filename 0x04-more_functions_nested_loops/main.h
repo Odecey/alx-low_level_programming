@@ -10,7 +10,7 @@ int _isdigit(int c);
 
 int mul(int a, int b);
 
-int print_numbers(void);
+void print_numbers(void);
 
 int print_most_numbers(void);
 
