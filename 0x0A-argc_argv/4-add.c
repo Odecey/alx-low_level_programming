@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+int is_number(char *str);
+
 /**
  * main - Entry point
  * @argc: arg count
