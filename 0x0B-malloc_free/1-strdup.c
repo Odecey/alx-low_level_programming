@@ -1,5 +1,6 @@
 #include <stdlib.h>
 #include "main.h"
+#include <stdio.h>
 
 /**
  *  *_strdup - copies the string given as parameter
@@ -27,7 +28,8 @@ char *_strdup(char *str)
 	if (duplicate == NULL)
 		return (NULL);
 
-	while ((duplicate[i] = str[i]) != '\0') i++;
+	while
+		((duplicate[i] = str[i]) != '\0') i++;
 
 			return (duplicate);
 }
