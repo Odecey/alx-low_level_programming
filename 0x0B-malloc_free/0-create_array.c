@@ -2,8 +2,8 @@
 #include <stdlib.h>
 
 /**
- * *create_array - create an array of chars and initializes
- * it with a specific char.
+ * create_array - create an array of chars,
+ * and initialize it with a specific char.
  * @c: char to initialize
  * @s: number of bytes to allocate
  *
@@ -12,11 +12,11 @@
 
 char *create_array(unsigned int size, char c)
 {
-	char *array = malloc(size);
+	char *cr = malloc(size);
 
-	if (size == 0 || array == 0)
+	if (size == 0 || cr == 0)
 		return (NULL);
 	while (size--)
-		array[size] = c;
-	return (array);
+		cr[size] = c;
+	return (cr);
 }
