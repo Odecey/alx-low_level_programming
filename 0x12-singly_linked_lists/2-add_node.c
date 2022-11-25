@@ -1,7 +1,8 @@
 #include "lists.h"
 
 /**
- * add_node - add new node beginning of list_t
+ * add_node - add new node
+ * beginning of list_t
  * @head: pointer to structure
  * @str: string
  * Return: the address of a new element
