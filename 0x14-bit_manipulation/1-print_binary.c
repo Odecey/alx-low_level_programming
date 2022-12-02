@@ -7,7 +7,7 @@
  * Return: no return.
  */
 
-void print_bianry(unsigned long int n)
+void print_binary(unsigned long int n)
 {
 	if (n >> 0)
 	{
